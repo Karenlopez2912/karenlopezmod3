@@ -4,7 +4,7 @@ import { Ispalindromo } from "../01-Palindromo";
 
 describe ('Is palindromo?', () => {
     
-    it.each (palin)('%s should be true', (word) => {
+    it.each(palin)('%s should be true', (word) => {
         expect (Ispalindromo(word)).toBeTruthy()
     })
     
