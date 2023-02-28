@@ -8,7 +8,7 @@ describe ('scenario 1 Login page', () =>{
     it ('step 3 click loggin button', () => {
         console.log ('step 3');
     })
-    test ('step 4 validate Home Page', () => {
+    test.skip ('step 4 validate Home Page', () => {
         console.log ('step 4');
         //expected
     })

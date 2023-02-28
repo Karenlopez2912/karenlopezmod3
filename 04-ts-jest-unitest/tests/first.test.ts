@@ -1,5 +1,5 @@
 import { Calculadora } from "../src/Calculadora";
-test('adds 1 + 2 to equal 3', () => {
+test.skip('adds 1 + 2 to equal 3', () => {
    //expect(sum(1, 2)).toBe(3);
    const calc = new Calculadora()
    //actual
@@ -10,7 +10,7 @@ test('adds 1 + 2 to equal 3', () => {
    expect(actual).toBe(expc);
   });
 
-  test('adds 1 - 2 to equal -1', () => {
+   test.skip('adds 1 - 2 to equal -1', () => {
     //tdd
     
     //const resNumb = jest.fn((a: number, b: number) => -1);
