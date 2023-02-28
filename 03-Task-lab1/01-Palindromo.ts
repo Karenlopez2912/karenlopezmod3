@@ -1,4 +1,4 @@
-function Ispalindromo(word: string): boolean {
+export function Ispalindromo(word: string): boolean {
     const formattedword: string = word.toLowerCase()
         .normalize('NFD').replace(/[\u0300-\u036f]/g,'')
         .replace(/[\W]/g,'');

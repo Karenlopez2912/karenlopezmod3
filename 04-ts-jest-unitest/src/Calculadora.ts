@@ -17,5 +17,4 @@ export class Calculadora {
         return numb1 - numb2;
     };
 
-    static greatterNumberDev(input: number[]) {}
 }
