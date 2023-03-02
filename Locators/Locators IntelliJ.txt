@@ -1,0 +1,12 @@
+Lab 2 - Selectors:
+
+1: //a[@href='/es-es/']
+2: //button[@data-test='main-menu-item-action'and @aria-label='Para equipos: Abrir submenú']
+3: //a[@aria-label='Ir a la tienda' or @href='/es-es/store/']
+4: //div[@class='wt-container']//a[@href='/es-es/idea/download/']
+5: //a[@href='/es-es/idea/features#collaborative']
+6: //a[@href='https://lp.jetbrains.com/intellij-idea-profiler/']
+7://div[@class='wt-offset-top-32 comparison-card__button']//child::button
+8://a[@data-test='dropdown-button-link'and @href='/es-es/idea/download/download-thanks.html?platform=windows&code=IIC']
+9://a[@data-test='button'and @href='/es-es/products/compare/?product=idea&product=idea-ce']
+10://a[@href='https://www.jetbrains.com/company/privacy.html']
