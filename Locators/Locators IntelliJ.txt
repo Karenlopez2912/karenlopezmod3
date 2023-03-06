@@ -1,12 +1,12 @@
 Lab 2 - Selectors:
 
-1: //a[@href='/es-es/']
+1: //a[contains(@aria-label, 'Ir a la página principal')]
 2: //button[@data-test='main-menu-item-action'and @aria-label='Para equipos: Abrir submenú']
-3: //a[@aria-label='Ir a la tienda' or @href='/es-es/store/']
-4: //div[@class='wt-container']//a[@href='/es-es/idea/download/']
+3: //a[contains(@aria-label, 'Ir a la tienda')]
+4: //a[@class='wt-col-inline menu-second__download-button wt-button wt-button_size_s wt-button_mode_primary']
 5: //a[@href='/es-es/idea/features#collaborative']
-6: //a[@href='https://lp.jetbrains.com/intellij-idea-profiler/']
+6: //p[@class='wt-col-inline']//a[contains(@href, 'profiler')]
 7://div[@class='wt-offset-top-32 comparison-card__button']//child::button
-8://a[@data-test='dropdown-button-link'and @href='/es-es/idea/download/download-thanks.html?platform=windows&code=IIC']
-9://a[@data-test='button'and @href='/es-es/products/compare/?product=idea&product=idea-ce']
-10://a[@href='https://www.jetbrains.com/company/privacy.html']
+8://div[@class='comparison-card__button']//a[@data-test='dropdown-button-link']
+9://a[@class='_main_1e63mqc_17 _modeOutline_1e63mqc_356 _sizeM_1e63mqc_99 _alignIconLeft_1e63mqc_77 _dark_1e63mqc_62 _withIcon_1e63mqc_119 wt-offset-top-32']
+10://span[@class='wt-privacy-notice__tooltip-content']
