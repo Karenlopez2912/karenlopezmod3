@@ -9,4 +9,4 @@ Lab 2 - Selectors:
 7://div[@class='wt-offset-top-32 comparison-card__button']//child::button
 8://div[@class='comparison-card__button']//a[@data-test='dropdown-button-link']
 9://a[@class='_main_1e63mqc_17 _modeOutline_1e63mqc_356 _sizeM_1e63mqc_99 _alignIconLeft_1e63mqc_77 _dark_1e63mqc_62 _withIcon_1e63mqc_119 wt-offset-top-32']
-10://span[@class='wt-privacy-notice__tooltip-content']
+10://div[@class='wt-tooltip__content']//span[@class='wt-privacy-notice__tooltip-content']
